@@ -1,0 +1,64 @@
+.Visiting {
+  background-color: var(--main-white);
+  padding-top: 75px;
+}
+
+.section-header h2{
+  font-family: 'Forum-Regular';
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+  padding-bottom: 25px;
+}
+
+.section-header hr {
+  height: 3px;
+  background-color: #710707;
+}
+
+.visiting-grid-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  row-gap: 75px;
+  padding: 75px 0 75px 0;
+}
+
+.visiting__header {
+  font-family: 'Forum-Regular';
+  font-size: 32px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+.grid-element hr {
+  height: 2px;
+  background-color: #710707;
+  width: 300px;
+  margin: 10px 0 10px 0;
+}
+
+.grid-element .virtualTour {
+  font-family: 'Roboto';
+  font-size: 22px;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+
+.grid-element .PanoramaView {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.grid-element .PanoramaView:hover {
+  color: #9D8665;
+}
+
+.grid-element .PanoramaView:active {
+  color: #7E6C51;
+}
+

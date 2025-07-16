@@ -29,6 +29,9 @@
 ;
 }
 
+.discover a{
+  color: #FFFFFF;
+}
 
 .welcome__header {
   position: relative;
