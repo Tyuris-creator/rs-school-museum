@@ -1,0 +1,27 @@
+:root {
+  --main-black: #030303;
+  --main-white: #FFFFFF;
+  --main-red: #710707
+}
+
+
+
+@font-face {
+  font-family: 'Forum-Regular';
+  src: url('../fonts/Forum-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+
