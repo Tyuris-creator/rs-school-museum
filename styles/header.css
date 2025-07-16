@@ -25,6 +25,7 @@
 .header__name {
   font-family: "Forum-Regular";
   letter-spacing: 5px;
+  cursor:default ;
 }
 
 .header__name {

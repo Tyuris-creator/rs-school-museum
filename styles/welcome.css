@@ -4,9 +4,7 @@
   color: var(--main-white);
 }
 
-button:hover {
-  background-color: #9d8665;
-}
+
 
 .Welcome-wrapper {
   position: relative;
@@ -54,7 +52,16 @@ button:hover {
   font-weight: 300;
   letter-spacing: 2px;
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.5s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #9d8665;
+  
+}
+
+button:active {
+  transform: scale(98%);
 }
 
 .welcome__header h2 {
@@ -64,6 +71,7 @@ button:hover {
   letter-spacing: 5px;
   text-transform: uppercase;
   padding-bottom: 25px;
+  cursor: default;
 }
 
 .welcome__header p {
@@ -72,6 +80,7 @@ button:hover {
   font-size: 28px;
   letter-spacing: 2px;
   padding-bottom: 75px;
+  cursor: default;
 }
 
 .controlls {
@@ -110,6 +119,10 @@ button:hover {
   cursor: pointer;
 }
 
+.square:hover {
+  background-color: #D2B183;
+}
+
 .active {
   background-color: #d2b183;
 }
@@ -135,9 +148,14 @@ button:hover {
   cursor: pointer;
   width: 30px;
   height: 8px;
+  transition: filter 0.3s;
 }
 
 .btn-switchers button:hover {
   filter: invert(51%) sepia(46%) saturate(272%) hue-rotate(356deg)
     brightness(97%) contrast(85%);
+}
+
+.btn-switchers button:active {
+  filter: invert(42%) sepia(7%) saturate(1771%) hue-rotate(357deg) brightness(97%) contrast(82%);
 }
