@@ -1,16 +1,21 @@
 .Visiting {
   background-color: var(--main-white);
   padding-top: 75px;
+  
 }
 
-.section-header h2{
-  font-family: 'Forum-Regular';
+.section-header {
+  
+  font-family: "Forum-Regular";
   font-size: 80px;
   line-height: 90px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #9D8665;
   padding-bottom: 25px;
+}
+
+.section-header h2 {
+  color: #9d8665;
 }
 
 .section-header hr {
@@ -26,7 +31,7 @@
 }
 
 .visiting__header {
-  font-family: 'Forum-Regular';
+  font-family: "Forum-Regular";
   font-size: 32px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -38,27 +43,31 @@
   background-color: #710707;
   width: 300px;
   margin: 10px 0 10px 0;
+  transition: width 0.3s;
 }
 
 .grid-element .virtualTour {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 22px;
   padding-bottom: 10px;
   font-weight: 200;
 }
 
+.grid-element:hover hr {
+  width: 440px;
+}
+
 .grid-element .PanoramaView {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: 200;
   color: #000000;
 }
 
 .grid-element .PanoramaView:hover {
-  color: #9D8665;
+  color: #9d8665;
 }
 
 .grid-element .PanoramaView:active {
-  color: #7E6C51;
+  color: #7e6c51;
 }
-

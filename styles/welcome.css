@@ -4,8 +4,6 @@
   color: var(--main-white);
 }
 
-
-
 .Welcome-wrapper {
   position: relative;
   background-image: url("../assets/img/welcome-slider/1.jpg");
@@ -15,9 +13,8 @@
   height: 810px;
   justify-content: space-between;
   z-index: 0;
-
+  transition: background-image 0.2s;
 }
-
 
 .bg-color {
   width: 1000px;
@@ -25,12 +22,16 @@
   position: absolute;
   top: 0;
   right: 0;
-  background:  linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%);
-;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.5) 16.19%,
+    rgba(0, 0, 0, 0) 30.73%
+  );
 }
 
-.discover a{
-  color: #FFFFFF;
+.discover a {
+  color: #ffffff;
 }
 
 .welcome__header {
@@ -60,7 +61,6 @@
 
 button:hover {
   background-color: #9d8665;
-  
 }
 
 button:active {
@@ -123,7 +123,7 @@ button:active {
 }
 
 .square:hover {
-  background-color: #D2B183;
+  background-color: #d2b183;
 }
 
 .active {
@@ -160,5 +160,6 @@ button:active {
 }
 
 .btn-switchers button:active {
-  filter: invert(42%) sepia(7%) saturate(1771%) hue-rotate(357deg) brightness(97%) contrast(82%);
+  filter: invert(42%) sepia(7%) saturate(1771%) hue-rotate(357deg)
+    brightness(97%) contrast(82%);
 }

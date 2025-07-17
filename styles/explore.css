@@ -1,0 +1,40 @@
+.Explore {
+  background-color: #030303;
+  padding-top: 75px;
+}
+
+.before-after-box {
+  width: 100%;
+  max-width: 720px;
+}
+
+.flex-container {
+  display: flex;
+  column-gap: 60px;
+}
+
+.header-explore h2{
+  color: #FFFFFF;
+}
+
+.header-explore hr{
+  max-width: 660px;
+  margin-bottom: 75px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.wrapper-block1 {
+  
+  width: 100%;
+  max-width: 660px;
+}
+
+/* #710707 */
